@@ -13,8 +13,8 @@
 
 .searchForm {
     display: block;
-    margin-left: 666px;
-    margin-right: 670px;
+    margin-left: auto;
+    margin-right: auto;
     height: 44px; 
     width: 584px;
     margin-top: 27px;
@@ -47,4 +47,17 @@
 
 .searchMicrophone{
     cursor: pointer;
+}
+
+.googleButtons {
+    margin-top: 32px;
+    height: 36px;
+}
+
+.btn1{
+
+}
+
+.btn2{
+    
 }
