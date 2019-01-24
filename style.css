@@ -9,7 +9,6 @@ body, footer{
     padding-top: 109px;
     height: 92px;
     width: 272px; 
-  
 }
 
 .googleLogo{
@@ -102,7 +101,6 @@ li{
     margin-top: 38px;
     text-align: center;
     font-size: small;
-
 }
 
 footer {
@@ -122,24 +120,24 @@ footer {
     display: block;
     border-top: 1px solid #e4e4e4;
     height: 35px;
-    
 }
 
 .country {
     font-size: 15px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 
 .rightLinks{
     float: right;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-top: 8px;
     font-size: 10pt;
 }
 
 .leftLinks{
     float: left;
-    margin-left: 30px;
+    margin-left: 20px;
     font-size: 10pt;
 }
 
