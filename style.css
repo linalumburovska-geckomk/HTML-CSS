@@ -108,6 +108,8 @@ footer {
     height: 70px;
     color: rgba(0, 0, 0, 0.54);
     display: block;
+    width: 1920px;
+    margin-left: -10px;
 }
 
 .graybar {
@@ -124,7 +126,7 @@ footer {
 
 .country {
     font-size: 15px;
-    margin-left: 20px;
+    padding-left: 40px;
 }
 
 
@@ -139,6 +141,8 @@ footer {
     float: left;
     margin-left: 20px;
     font-size: 10pt;
+    padding-left: 20px;
+    padding-top: 5px;
 }
 
 a{
