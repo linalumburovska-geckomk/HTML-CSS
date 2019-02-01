@@ -28,6 +28,7 @@ body, footer{
     z-index: 3;
     border: .5px solid #fff;
     font-size: 16px;
+    padding-left: 25px;
 }
 
 .searchForm:hover{
@@ -104,48 +105,101 @@ li{
 }
 
 footer {
-    margin-top: 415px;
-    height: 70px;
     color: rgba(0, 0, 0, 0.54);
     display: block;
-    width: 1920px;
-    margin-left: -10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .graybar {
-    height: 78px;
     background-color: #f2f2f2;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 .country, .links {
     display: block;
     border-top: 1px solid #e4e4e4;
-    height: 35px;
+    height: 40px;
 }
 
 .country {
     font-size: 15px;
-    padding-left: 40px;
+    padding-left: 30px;
 }
 
 
 .rightLinks{
     float: right;
     margin-right: 10px;
-    margin-top: 8px;
     font-size: 10pt;
 }
 
 .leftLinks{
     float: left;
-    margin-left: 20px;
     font-size: 10pt;
-    padding-left: 20px;
-    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.separateLink {
+    padding-left: 23px;
 }
 
 a{
     color: #666666;
     text-decoration: none;
+}
+
+.topLinks{
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    min-width: 226px;
+    flex: 1 1 auto;
+    display:flex;
+    float: right;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    white-space: nowrap;
+    
+}
+
+.navbar{
+    position: absolute;
+    font-size: 13px;
+    right: 0;
+    width: 100%;
+
+}
+
+.gmail{
+    display: inline-block;
+    /* padding-left:15px; */
+    padding-right: 15px;
+    text-decoration: none;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+    color: rgba(0,0,0,0.87);
+}
+.images{
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+}
+
+.pictures{
+    min-width: 120px;
+    flex: 0 1 auto;
+    display: flex;
+    line-height: normal;
+    position: relative;
+    text-align: right;
 }
