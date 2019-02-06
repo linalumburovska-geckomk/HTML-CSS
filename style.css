@@ -103,11 +103,9 @@ nav {
     padding-left: 25px;
 }
 
-
 .searchForm:focus {
     outline: none;
 }
-
 
 .searchMicrophone {
     margin-left: 1215px;    
@@ -119,6 +117,10 @@ nav {
     position: absolute;
     margin-top: 10px;
     cursor: pointer;
+}
+
+.center {
+    text-align: center;
 }
 
 .googleButtons {
@@ -150,7 +152,6 @@ nav {
 .btn:focus {
     outline: none;
 }
-
 
 .offered {
     display: block;
@@ -193,7 +194,6 @@ footer {
     font-size: 15px;
     padding-left: 30px;
 }
-
 
 .rightLinks {
     float: right;
