@@ -1,4 +1,4 @@
-body{
+body {
     background: #fff;
     color: #222;
     font-family: arial,sans-serif;
@@ -6,20 +6,20 @@ body{
     margin: 0;
 }
 
-.lineForm{
+.lineForm {
     position: absolute;
     top: 311px;
     width: 100%;
 }
 
-.lineTopLinks{
+header {
     position: absolute;
     top: -295px;
     width: 100%;
     font-size: 13px;
 }
 
-.navbar{
+nav {
     display: flex;
     padding-left: 30px;
     padding-right: 30px;
@@ -27,57 +27,57 @@ body{
     justify-content: flex-end;
 }
 
-.topLinks{
+.topLinks {
     padding-right: 15px;
     display:flex;
 }
 
-.topImages{
+.topImages {
     min-width: 90px;
     display: flex;
 }
 
-.gmailImages{
+.gmailImages {
     display: inline-block;
     padding-left: 15px;
 }
 
-.gmailImages a{
+.gmailImages a {
     color: rgba(0,0,0,0.87);
     text-decoration: none;
     line-height: 24px;
     outline: none;
 }
 
-.icon img{
+.icon img {
     cursor: pointer;
     vertical-align: middle;
     height: 30px;
     width: 30px;
 }
 
-.notifications{
+.notifications {
     padding: 0 0 0 15px;
 }
 
-.notifications img{
+.notifications img {
     cursor: pointer;
     vertical-align: middle;
     height: 30px;
     width: 30px;
 }
 
-.signin{
+.signin {
     display: flex;
 }
 
-.signin img{
+.signin img {
     cursor: pointer;
     height: 30px;
     width: 30px;
 }
 
-.googleImage{
+.googleImage {
     display: block;
     margin-left: auto;
     margin-right: auto; 
@@ -86,7 +86,7 @@ body{
     width: 272px; 
 }
 
-.googleLogo{
+.googleLogo {
     margin-top: 89px;
 }
 
@@ -104,16 +104,16 @@ body{
 }
 
 
-.searchForm:focus{
+.searchForm:focus {
     outline: none;
 }
 
 
-.searchMicrophone{
+.searchMicrophone {
     margin-left: 1215px;    
 }
 
-.searchMicrophone img{
+.searchMicrophone img {
     height: 24px;
     width: 18px;
     position: absolute;
@@ -127,7 +127,7 @@ body{
     background-color: #fff;
 }
 
-.btn{
+.btn {
     color: rgb(117,117,117);
     font-size: 13px;
     font-weight: 700;
@@ -140,31 +140,31 @@ body{
     border-radius: 2px;
 }
 
-.btn:hover{
+.btn:hover {
     border: 1px solid #c6c6c6;
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     color: #222;
     cursor: pointer;
 }
 
-.btn:focus{
+.btn:focus {
     outline: none;
 }
 
 
-#offered {
+.offered {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-#offered p{
+.offered p {
     margin-top: 38px;
     text-align: center;
     font-size: small;
 }
 
-#offered p a{
+.offered p a {
     padding: 0 3px;
     color: #609;
 }
@@ -195,13 +195,13 @@ footer {
 }
 
 
-.rightLinks{
+.rightLinks {
     float: right;
     margin-right: 10px;
     font-size: 10pt;
 }
 
-.leftLinks{
+.leftLinks {
     float: left;
     font-size: 10pt;
     padding-left: 30px;
@@ -211,11 +211,11 @@ footer {
     padding-left: 23px;
 }
 
-a{
+a {
     color: #666666;
     text-decoration: none;
 }
 
-.separateRightLink{
+.separateRightLink {
     margin-right: 20px;
  }
